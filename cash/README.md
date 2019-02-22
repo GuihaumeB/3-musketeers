@@ -13,10 +13,10 @@ The default output is:
     to EUR, GBP and JPY
     
 
-#Installation
+# Installation
     - Run "npm install i" in this folder
     
-#Examples
+# Examples
     - node index.js
     - node index.js 10 EUR
     - node index.js 10 EUR JPY

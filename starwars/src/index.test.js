@@ -7,11 +7,12 @@ describe('starwars-names', () => {
       expect(starWars.all).toHaveLength(starWarsNames.length)
     });
     test('should be an array of strings', () => {
-      throw new Error('test not yet defined... remove the throw and write your test here');
+      throw new Error('Is not an array of strings');
     });
 
     test('should contain `Luke Skywalker`', () => {
-      throw new Error('test not yet defined... remove the throw and write your test here');
+      expect(starWars.all).toContain(/Luke Skywalker/);
+      throw new Error('Does not include Luke Skywalker');
     });
 
     test('should not contain `Ben Quadinaros`', () => {

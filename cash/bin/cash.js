@@ -1,5 +1,6 @@
 'use strict';
 
+//Required libraries
 const got = require('got');
 const money = require('money');
 const chalk = require('chalk');

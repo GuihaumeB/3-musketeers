@@ -11,7 +11,7 @@ const currencies = require('../lib/currencies.json');
 //Get required API to fetch currency exchange rates
 const {API} = require('./constants');
 
-//Ansyncronous command in order to avoid overlapping queries
+//Ansynchronous command in order to avoid overlapping queries
 const cash = async command => {
 	const {amount} = command;
 	const from = command.from.toUpperCase();
